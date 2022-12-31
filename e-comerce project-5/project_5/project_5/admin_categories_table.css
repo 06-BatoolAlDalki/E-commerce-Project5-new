@@ -1,0 +1,160 @@
+﻿body {
+}
+.sider {
+    display: flex;
+    flex-direction: row;
+   
+}
+.left_admin {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 750px;
+    border: 3px solid #D9D6D6;
+    background-color: #2B3467;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.admin_image {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    color: #D9D6D6;
+    top: 20px;
+    left: 40%;
+    font-size: 60px;
+    font-weight: bold;
+}
+.admin_name {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    color: #D9D6D6;
+    top: 110px;
+    left: 27%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.line {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    color: #D9D6D6;
+    top: 140px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.links_cat_pro_user {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    color: #D9D6D6;
+    top: 200px;
+    font-size: x-large;
+    left: 30%;
+}
+.right_div {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    width: 80%;
+    height: 180px;
+    background-color: #2B3467;
+    top: 0px;
+    left: 0px;
+}
+.title_name {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    left: 40%;
+    top: 50px;
+    color: #D9D6D6;
+}
+.appear {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    top: 180px;
+    left: 20%;
+    position: absolute;
+    width: 80%;
+    height: 580px;
+    background-color: white;
+}
+.batool {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20%;
+    color: #D9D6D6;
+}
+.white {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    width: 100%;
+    height: 700px;
+    background-color: #D9D6D6;
+    display: none;
+}
+
+.categories {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    display: none;
+    top: 180px;
+    left: 20%;
+    position: absolute;
+    width: 80%;
+    height: 580px;
+    background-color: #B8AD95;
+}
+.users {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #D9D6D6;
+}
+.HyperLink {
+    color: #D9D6D6;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 55px;
+}

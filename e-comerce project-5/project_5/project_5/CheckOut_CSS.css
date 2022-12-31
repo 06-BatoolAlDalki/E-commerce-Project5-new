@@ -1,0 +1,282 @@
+﻿
+.navbar-collapse {
+    flex-grow: 0;
+    float: right;
+}
+
+.navtext {
+    color: #2B3467;
+    font-size: 20PX;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.checkproduct {
+    float: left;
+    width: 65%;
+    height: 635px;
+}
+
+.summery {
+    float: right;
+    width: 30%;
+    height: 670px;
+    background-color: #B8AD95;
+    color: #E6E6E6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+}
+
+.tit {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.purchase {
+    float: left;
+    font-weight: bold;
+    margin-left: 10%;
+    padding-top: 15px;
+}
+
+.pri {
+    float: right;
+    margin-right: 10%;
+    font-weight: bold;
+    margin-left: 10%;
+    padding-top: 15px;
+}
+
+.check_button {
+    margin-top: 200px;
+    margin-left: 30%;
+    display: block;
+    width: 35%;
+    border-radius: 6px;
+    height: 35px;
+    text-align: center;
+    border: 2px solid #E6E6E6;
+    background-color: #E6E6E6;
+    color: #2B3467;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 20px;
+}
+
+.foon {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #E6E6E6;
+}
+
+.tabb {
+    margin-left: 30px;
+}
+
+footer {
+    bottom: 0;
+}
+
+.foott {
+    height: 300px;
+    width: 100%;
+}
+
+.footer-distributed {
+    background-color: #2B3467;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .footer-distributed .footer-left {
+        width: 40%;
+    }
+
+    .footer-distributed h3 {
+        color: #ffffff;
+        font: normal 36px 'Cookie', cursive;
+        margin: 0;
+    }
+
+        .footer-distributed h3 span {
+            color: #5383d3;
+        }
+
+
+    .footer-distributed .footer-links {
+        color: #ffffff;
+        margin: 20px 0 12px;
+        padding: 0;
+    }
+
+        .footer-distributed .footer-links a {
+            display: inline-block;
+            line-height: 1.8;
+            text-decoration: none;
+            color: inherit;
+        }
+
+    .footer-distributed .footer-company-name {
+        color: #8f9296;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+
+    .footer-distributed .footer-center {
+        width: 35%;
+    }
+
+        .footer-distributed .footer-center i {
+            background-color: #33383b;
+            color: #ffffff;
+            font-size: 25px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 42px;
+            margin: 10px 15px;
+            vertical-align: middle;
+        }
+
+            .footer-distributed .footer-center i.fa-envelope {
+                font-size: 17px;
+                line-height: 38px;
+            }
+
+        .footer-distributed .footer-center p {
+            display: inline-block;
+            color: #ffffff;
+            vertical-align: middle;
+            margin: 0;
+        }
+
+            .footer-distributed .footer-center p span {
+                display: block;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 2;
+            }
+
+            .footer-distributed .footer-center p a {
+                color: #5383d3;
+                text-decoration: none;
+            }
+
+    .footer-distributed .footer-right {
+        width: 20%;
+    }
+
+    .footer-distributed .footer-company-about {
+        line-height: 20px;
+        color: #92999f;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+        .footer-distributed .footer-company-about span {
+            display: block;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+    .footer-distributed .footer-icons {
+        margin-top: 25px;
+    }
+
+        .footer-distributed .footer-icons a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            background-color: #92999f;
+            border-radius: 20px;
+            font-size: 20px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 35px;
+            margin-right: 3px;
+            margin-bottom: 5px;
+        }
+
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right {
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+            .footer-distributed .footer-center i {
+                margin-left: 0;
+            }
+}
+
+@media only screen and (min-device-width:0px) and (max-device-width:480px) {
+
+
+
+    .tit {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .summery {
+        float: unset;
+        width: 100%;
+        height: 370px;
+        background-color: #B8AD95;
+        color: #E6E6E6;
+        font-family: 'Times New Roman', Times, serif;
+        display: inline-block;
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width:768px) {
+    .summery {
+        width: 35%;
+    }
+
+    .check_button {
+        width: 40%;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,140 @@
+﻿body {
+}
+
+.sider {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_admin {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 750px;
+    border: 3px solid #D9D6D6;
+    background-color: #2B3467;
+}
+
+.admin_image {
+    position: absolute;
+    color: #D9D6D6;
+    ;
+    top: 20px;
+    left: 40%;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.admin_name {
+    position: absolute;
+    color: #D9D6D6;
+    top: 110px;
+    left: 27%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.line {
+    position: absolute;
+    color: #D9D6D6;
+    top: 140px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.links_cat_pro_user {
+    position: absolute;
+    color: #D9D6D6;
+    top: 200px;
+    font-size: x-large;
+    left: 30%;
+}
+
+.right_div {
+    position: relative;
+    width: 80%;
+    height: 180px;
+    border: 3px solid #D9D6D6;
+    background-color: #2B3467;
+    top: 0px;
+    left: 0px;
+}
+
+.title_name {
+    position: absolute;
+    left: 40%;
+    top: 50px;
+    color: #D9D6D6;
+}
+
+.appear {
+    top: 180px;
+    left: 20%;
+    position: absolute;
+    width: 80%;
+    height: 600px;
+  /*  border: 3px solid black;*/
+    background-color: #D9D6D6;
+}
+
+.batool {
+    margin-left: 20%;
+    color: #D9D6D6;
+}
+
+.white {
+    width: 100%;
+    height: 700px;
+    background-color: blue;
+    display: none;
+}
+
+.categories {
+    display: none;
+    top: 180px;
+    left: 20%;
+    position: absolute;
+    width: 80%;
+    height: 580px;
+    border: 3px solid black;
+    background-color: #D9D6D6;
+}
+
+.users {
+    background-color: #D9D6D6;
+}
+
+#Label4 {
+    /*    margin-top:;
+*/ text-align: center;
+    margin-left: 30%;
+    font-size: x-large;
+    font-weight: bold;
+    color: #2B3467;
+}
+#Label5 {
+    text-align: center;
+    margin-left: 35%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #D9D6D6;
+}
+.upload_image {
+    margin-left: 30%;
+}
+#btnUpload {
+    background-color: #2B3467;
+    color: #D9D6D6;
+    /*   border-radius:12px;
+*/
+}
+
+.HyperLink {
+    color: #D9D6D6;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 55px;
+}
